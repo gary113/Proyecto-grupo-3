@@ -1,0 +1,5 @@
+nombre|numero|usuario|correo|direccion|coordenadaX|coordenadaY|contrasenia
+Bodega Donia Lucia|951016321|dlucia|bdlucia@gmail.com|Calle Jupiter 123 San Juan de Miraflores|50|60|99221
+La tiendita de Don Pepe|985426138|tdpepe|dpepestore@gmail.com|Calle Las Begonias 223 Surco|12|38|17947
+La mechita|696969696|mechita|mechita@gmail.com|FIIS UNI|30|20|471953
+Jarritas.SAC|911834125|jarras|mecamica.jarras@gmail.com|FIM|3|5|123456

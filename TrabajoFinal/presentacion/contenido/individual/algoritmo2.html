@@ -1,0 +1,103 @@
+<section class="slide" id="criba_de_eratostenes">
+      <h1>Criba de Eratóstenes </h1>
+    </section>
+	
+	<section class="slide" id="grafico">
+      <h2>Descripción gráfica </h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif">
+    </section>
+   
+    <section class="slide" id="Historia">
+      <h2>Historia</h2>
+      <p>  Astrónomo, geógrafo, matemático y filósofo de la antigua Grecia. Se le conoce por haber medido el perímetro de la Tierra. Fue célebre en matemáticas por la criba que lleva su nombre, utilizada para hallar los números primos.</p>
+	  <img src=	"https://upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png">
+	</section>
+	
+	<section class="slide" id="Descripcion">
+      <h2>Descripción</h2>
+      <p>  Un numero primo es aquel que tiene unicamente 2 divisores (numeros naturales) distintos, que son él mismo y el 1.</p>
+	  <p> Sabemos que existen infinitos numeros primos, este metodo de la CRIBA DE ERATOSTENES nos permite hallar los numeros primos hasta un determinado número dado.</p>	
+	</section>
+
+    <section class="slide" id="Logica">
+      <h2>Lógica</h2>
+      <p>La logica que se tiene dentro de este algoritmo es la siguiente:</p>
+
+      <ul>
+        <li class="slide" id="1">
+          <strong>1</strong>: Crear una lista de números enteros consecutivos entre 2 y n : (2, 3, 4, ..., n ).
+        </li>
+
+        <li class="slide" id="2">
+          <strong>2</strong>: Inicialmente, dejar que p es igual a 2, el número primo más pequeño.
+        </li>
+
+        <li class="slide" id="3">
+          <strong>3</strong>: Enumerar los múltiplos de p contando a n desde 2 p en incrementos de p , y marcarlos en la lista (estos serán 2 p , 3 p , 4 p , ... , el p sí mismo no debe marcar).
+        </li>
+
+        <li class="slide" id="4">
+          <strong>4</strong>: Encontrar el primer número mayor que p en la lista que no esté marcado. Si no había tal cantidad, para. De lo contrario, dejar que p ahora igual a este nuevo número (que es el próximo primer), y repita desde el paso 3.
+        </li>
+
+        <li class="slide" id="5">
+          <strong>5</strong>: Cuando el algoritmo termina, los números no quedando marcados en la lista son todos los números primos por debajo n .
+        </li>
+      </ul>
+
+      <p class="slide" id="idea">La idea principal es que cada valor de p es un número primo, ya que si se tratara de un numero compuesto, estaria marcado como un múltiplo.</p>
+    </section>
+
+	<section class="slide" id="1">
+	<h2>  </h2>
+      <img src="https://pinae.files.wordpress.com/2009/05/primo12.jpg?w=620">
+	  <img src="https://pinae.files.wordpress.com/2009/05/primo22.jpg?w=620">
+    </section>
+	
+	<section class="slide" id="1">
+	<h2>  </h2>
+      <img src="https://pinae.files.wordpress.com/2009/05/primo32.jpg?w=620">
+	  <img src="https://pinae.files.wordpress.com/2009/11/primo42.jpg?w=620">
+    </section>
+	
+	<section class="slide" id="1">
+	<h2>  </h2>
+	<h2>  </h2>
+	<h2>  </h2>	
+      <img src="https://pinae.files.wordpress.com/2009/11/primo51.jpg?w=620">
+	  
+    </section>
+	
+	<section class="slide" id="nested">
+      <h2>Algoritmo implementado en C++ </h2>
+      <pre><code>#include&lt;iostream>
+using namespace std;
+int main(){
+	unsigned long long j=2,k,n=1000000,cont=0;
+	bool primo[n+1];
+	
+	for(int i=2;i&lt;=n;i++){
+		primo[i]=true;	//supongamos que todos los numeros son primos	
+	}	
+	
+	while(j*j&lt;=n){		//menor multiplo
+		k=j;
+		while(j*k&lt;=n){		//multiplo k*j en el intervalo
+			if(primo[j*k]) primo[j*k]=false;// no es primo		
+			k++;
+		}
+		j++;
+		if(primo[j]==false) j++;
+	}
+	k=2;
+	while(k&lt;=n){
+		if(primo[k]) {
+			cout&lt;&lt;k&lt;&lt;" "; 
+			cont++;
+		}
+		k++;
+	}
+	cout&lt;&lt;&quot;\n&quot;&lt;&lt;cont; //cantidad de primos encontrados
+	return 0;
+	}</code></pre>
+	</section>

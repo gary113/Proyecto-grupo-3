@@ -1,0 +1,4 @@
+nombre|numero|correo|direccion|coordX|coordY|preguntaSecreta|respuestaSecreta|contrasenia
+Dangelo|933156789|dangelo_cata@otma|jr los incas|23|15|Que tipo de mascotas me gustan?|perros|45968399
+Gary Candia Nina|985436128|gr.candia@gmail.com|Calle Los Naranjos Mz. D Lt. 8 Dpto 502 Urb. Entel Peru S.J.M.|-5|-35|Que tipo de mascotas me gustan?|perros|123456
+Jean Manuel Estrella Salome|959430676|manuelestrella18.me@gmailcom|Pariachi|16|20|Cual es mi curso favorito?|Calculo Integral|444853

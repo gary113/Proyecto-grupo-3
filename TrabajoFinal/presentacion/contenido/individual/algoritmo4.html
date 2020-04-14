@@ -1,0 +1,79 @@
+<section class="slide" id="ordenamiento_seleccion">
+      <h1>Ordenamiento por Selección - Selection Sort</h1>
+	  
+    </section>
+	
+	<section class="slide" id="elements-images">
+      
+	  <h2>Ordenamiento por Selección - Selection Sort</h2>
+      <ol>
+	    <li>
+          <h3>Descripción del algoritmo</h3>
+          <p>El ordenamiento por selección(Selection Sort) es un algoritmo de ordenamiento</p>
+		  <p>que requiere O(n^(2)) operaciones para ordenar una lista de n elementos</p>
+        </li>
+        <li>
+          <h3>Lógica del algoritmo</h3>
+          <p>- Buscar el mínimo elemento de la lista</p>
+		  <p>- Intercambiarlo con el primero</p>
+		  <p>- Buscar el siguiente mínimo en el resto de la lista</p>
+		  <p>- Intercambiarlo con el segundo</p>
+        </li>
+      </ol>
+    </section>
+	
+	<section class="slide" id="elements-images">
+      <h2>Explicación gráfica</h2>
+      <img src="https://d0c831df-a-62cb3a1a-s-sites.googlegroups.com/site/progrup2014/2-2-3-ordenamiento-por-seleccion/Selection-Sort-Animation.gif?attachauth=ANoY7co94-bgr7ah9UMEhA3Qnq0XC3deuNdK8i8yoUKxFMz-0jkL6BJSL8ao6M3IKZSVHG2hywcvoWlQxWwf0qhPFyreV7RBwVNoJgWC6R8HWxnR4zT7HNl7n6o5KUx5EWP-BlD-HPqrWfz5jP5KEZYq_pd1K12xctTIPuZ0ijB4xMWLScaFVqJSIJSemDXgiZFj59OpFlXjUQLXmP2KKF0nQm83cjYKYrReksEZauPv0qwBKhfpOybz4YOsV5FYXdyVg3Rae57U8lh9ii3PEdnU4bEd31Cvgg%3D%3D&attredirects=0">
+    </section>
+	
+	<section class="slide" id="elements-images">
+      <h2>Comparación de algoritmos</h2>
+      <img src="https://danielandres25.files.wordpress.com/2013/04/sin-tc3adtulo.png" alt="Kitties">
+    </section>
+	
+	<section class="slide" id="nested">
+      <h2>Implementación en C++</h2>
+      <pre><code>#include &lt;iostream&gt;
+		
+using namespace std;
+		
+int main() {
+    int numeros[]={4,2,5,3,1};
+    int i,j,aux,min;
+  
+    for(i=0;i&lt;5;i++){
+        min = i;
+        for(j=i+1;j&lt;5;j++){
+            if(numeros[j] &lt; numeros[min]){
+            min = j;
+            }
+        }
+        aux = numeros[i];
+        numeros[i] = numeros[min];
+        numeros[min] = aux;
+    }
+		
+    cout&lt;&lt;&quot;Orden Ascendente: &quot;;
+    for(i=0;i&lt;5;i++){
+      cout&lt;&lt;numeros[i]&lt;&lt;&quot; &quot;;
+    }
+			
+    cout&lt;&lt;&quot;\nOrden Descendente: &quot;;
+    for(i=4;i&gt;=0;i--){
+      cout&lt;&lt;numeros[i]&lt;&lt;&quot; &quot;;
+    }
+		
+    return 0;
+}</code></pre>
+    </section>
+	
+	<section class="slide" id="title-slide">
+	  <h2>Ordenamiento por Selección aplicado a la realidad</h2>
+	  <p>El ordenamiento por selección se usa en la mayoría de casos para encontrar un archivo, dato, etc, en específico</p>
+	  <p>de una lista de documentos, características, archivos, etc.</p>
+	  <img src="https://blog.dataprius.com/wp-content/uploads/2012/07/organize.jpg" alt="Kitties">
+    </section>
+	<section class="slide" id="title-slide">
+	<h1>Muchas gracias</h1>
+	</section>

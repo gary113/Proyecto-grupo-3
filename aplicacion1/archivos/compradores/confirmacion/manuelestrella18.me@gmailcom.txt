@@ -1,0 +1,10 @@
+Sus datos son los siguientes:
+
+Nombre: Jean Manuel Estrella Salome
+Numero de telefono: 959430676
+Correo electronico: manuelestrella18.me@gmailcom
+Direccion: Pariachi
+Coordenadas XY (separadas por espacio): 16 20
+Pregunta secreta: Cual es mi curso favorito?
+Respuesta secreta: Calculo Integral
+Contrasenia: 444853

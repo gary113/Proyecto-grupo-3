@@ -1,0 +1,11 @@
+producto|0|0|nombreTienda|telefonoComprador|fechaPedido|horaPedido|fechaEntrega|horaEntrega|repartidor|telefonoRepartidor|puntuado|estado
+Escoba|1|7|Bodega Donia Lucia|985436128|3/12/2017|13:22:20|||||nopuntuado|cancelado
+Aceite|3|26.5|La mechita|985436128|3/12/2017|16:15:57|||||nopuntuado|cancelado
+Detergente|2|8|Bodega Donia Lucia|985436128|3/12/2017|19:28:39|3/12/2017|21:10:46|Dangelo Catacora Mamani|933156789|sipuntuado|entregado
+Papel higienico|2|8|Bodega Donia Lucia|985436128|3/12/2017|21:16:14|3/12/2017|21:19:21|Dangelo Catacora Mamani|933156789|sipuntuado|entregado
+Jabon|4|12|Bodega Donia Lucia|933156789|5/12/2017|15:33:50|||||nopuntuado|cancelado
+Aceite|3|25|Bodega Donia Lucia|933156789|5/12/2017|15:40:13|5/12/2017|15:50:14|Dangelo Catacora Mamani|933156789|sipuntuado|entregado
+Arroz|4|16|Bodega Donia Lucia|959430676|5/12/2017|16:48:52|||||nopuntuado|cancelado
+Jabon|2|8|Bodega Donia Lucia|959430676|5/12/2017|16:49:24|5/12/2017|16:53:24|Dangelo Catacora Mamani|933156789|sipuntuado|entregado
+Paneton|7|39|Jarritas.SAC|959430676|5/12/2017|17:4:56|||||nopuntuado|cancelado
+Jabon|3|12.4|La tiendita de Don Pepe|985436128|6/12/2017|16:32:12|6/12/2017|16:36:34|Dangelo Catacora Mamani|933156789|sipuntuado|entregado

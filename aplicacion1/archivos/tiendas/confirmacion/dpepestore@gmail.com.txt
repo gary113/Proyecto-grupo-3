@@ -1,0 +1,9 @@
+Sus datos son los siguientes:
+
+Nombre de la tienda: La tiendita de Don Pepe
+Numero de telefono: 985426138
+Usuario: tdpepe
+Correo electronico de contacto: dpepestore@gmail.com
+Direccion de la tienda: Calle Las Begonias 223 Surco
+Coordenadas XY (separadas por espacio): 12 38
+Contrasenia: 17947

@@ -1,0 +1,1 @@
+producto|horaPedido|fechaPedido|nombreTienda|direccionTienda|cantidad|montoTotal|pagaCon|nombreComprador|direccion|coordx|coordy|telefonoComprador

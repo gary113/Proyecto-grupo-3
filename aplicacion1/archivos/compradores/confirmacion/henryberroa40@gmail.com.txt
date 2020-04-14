@@ -1,0 +1,10 @@
+Sus datos son los siguientes:
+
+Nombre: Henry Aroni
+Numero de telefono: 991067454
+Correo electronico: henryberroa40@gmail.com
+Direccion: Sebastian Luna 335 Chorrillos
+Coordenadas XY (separadas por espacio): 7 3
+Pregunta secreta: Que tipo de mascotas me gustan?
+Respuesta secreta: perro
+Contrasenia: 198907

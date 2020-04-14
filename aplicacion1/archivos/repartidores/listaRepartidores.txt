@@ -1,0 +1,2 @@
+Nombre|numero de telefono|DNI|usuario|correo|contrasenia|puntuacion|numero de puntuaciones
+Dangelo Catacora Mamani|933156789|74815099|dan|dangelo_catacora@hotmail.com|123456|5.6|5

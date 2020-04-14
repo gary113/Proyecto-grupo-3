@@ -1,0 +1,9 @@
+Sus datos son los siguientes:
+
+Nombre de la tienda: Bodega Donia Lucia
+Numero de telefono: 951016321
+Usuario: dlucia
+Correo electronico de contacto: bdlucia@gmail.com
+Direccion de la tienda: Calle Jupiter 123 San Juan de Miraflores
+Coordenadas XY (separadas por espacio): 50 60
+Contrasenia: 99221

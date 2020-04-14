@@ -1,0 +1,87 @@
+
+<section class="slide" id="gary">
+      <h1>Karatsuba </h1>
+	  </section>
+	<section class="slide" id="grafico">
+	  <h2>Descripci&oacute;n</h2>
+      <p>El algoritmo de Karatsuba es un procedimiento para multiplicar n&uacute;meros grandes eficientemente. El algoritmo consigue reducir la m&uacute;ltiplicaci&oacute;n de dos n&uacute;meros de n d&iacute;gitos a aproximadamente n<sup>1.585</sup> multiplicaciones de un d&iacute;gito. Es m&aacute;s r&aacute;pido que el algoritmo cl&aacute;sico, que requiere n<sup>2</sup> productos de un d&iacute;gito.</p>
+
+<p>El algoritmo de Karatsuba es un claro ejemplo del paradigma divide y vencer&aacute;s, que implica resolver un problema dif&iacute;cil, dividi&eacute;ndolo en partes m&aacute;s simples tantas veces como sea necesario, hasta que la resoluci&oacute;n de las partes se torna obvia.</p>
+    </section>
+    
+	
+    <section class="slide" id="historia">
+      
+          <h2>Un poco de historia</h2>
+<p>En oto&ntildeo de 1960, Karatsuba, un estudiante de 25 a&ntildeos, encontr&oacute; un algoritmo divide y vencer&aacute;s que multiplicaba dos n&uacute;meros de n d&iacute;gitos en n<sup>log<sub>2</sub>3</sup> operaciones elementales, refutando as&iacute; la suposici&oacute;n inicial de Kolmogorov, que quer&iacute;a demostrar que cualquier algoritmo para esta tarea requerir&iacute;a n<sup>2</sup> operaciones elementales.</p>
+
+<p>El m&eacute;todo fue publicado en 1962, en la revista cient&iacute;fica sovi&eacute;tica Proceedings of the USSR Academy of Sciences. El art&iacute;culo hab&iacute;a sido escrito por Kolmogorov, posiblemente en colaboraci&oacute;n con Yuri Ofman, pero nombraba a "A. Karatsuba y Yu. Ofman" como los autores. Karatsuba solo se dio cuenta de la publicaci&oacute;n cuando recibi&oacute; una copia del art&iacute;culo por parte de la editorial de la revista.</p>
+        
+<img src="http://www.ccas.ru/personal/karatsuba/karatzuba.jpg">
+
+    </section>
+
+    
+<section class="slide" id="logica">
+      <h2>L&oacute;gica</h2>
+      <p>El paso b&aacute;sico del algoritmo de Karatsuba es una f&oacute;rmula que nos permite calcular el producto de dos n&uacute;meros grandes <em>u</em> y <em>v</em> usando tres multiplicaciones de n&uacute;meros m&aacute;s peque&ntildeos, cada uno con m&aacute;s o menos la mitad de los d&iacute;gitos de <em>u</em> y <em>v</em>, m&aacute;s algunas sumas y desplazamientos de d&iacute;gitos.</p>
+
+<p>Sean <em>u</em> y <em>v</em> dos enteros de n cifras, se dividen los dos n&uacute;meros dados de la manera siguiente:</p>
+
+<pre><em>u</em> = 10<sup>s</sup>w + x
+<em>v</em> = 10<sup>s</sup>y + z</pre>
+
+<p>Donde:</p>
+
+<pre>s = n/2</pre>
+
+</section>
+
+<section class="slide" id="logica2">
+      <h2>L&oacute;gica</h2>
+      <p>Por lo tanto, w e y tendr&iacute;an n/2 cifras</p>
+<img src="http://i67.tinypic.com/5u2ql4.jpg">
+<p>Y el producto quedar&iacute;a de la siguiente manera:</p>
+
+<pre><em>uv</em> = (10<sup>s</sup>w + x)(10<sup>s</sup>y + z)
+
+<em>uv</em> = 10<sup>2s</sup>wy + 10<sup>s</sup>(wz + xy) + xz</pre>
+
+</section>
+
+<section class="slide" id="aplicacion">
+      <h2>Aplicaci&oacute;n en la actualidad</h2>
+      <p>Una de las aplicaciones de este algoritmo es la criptograf&iacutea, en donde se necesita calcular multiplicaciones con n&uacute;meros grandes. Los n&uacute;meros utilizados en estas aplicaciones pueden subir a cientos o miles de d&iacute;gitos.</p>
+<p>La multiplicaci&oacute;n de grandes n&uacute;meros requiere enormes recursos de tiempo y espacio. El estudio de los algoritmos de multiplicaci&oacute;n r&aacute;pida siempre ha sido una tarea importante y estudiada por los matem&aacute;ticos y cient&iacute;ficos de la computaci&oacute;n.</p>
+
+<img src="https://iqglobal.intel.com/lar/wp-content/uploads/sites/16/2016/10/criptografia_header-1160x580.jpg" width="580" height="290">
+    </section>
+
+<section class="slide" id="aplicacion2">
+      <h2>Encriptaci&oacute;n RSA</h2>
+      <p>RSA es un algoritmo de cifrado asim&eacute;trico, o de clave p&uacute;blica, y es uno de los algoritmos m&aacute;s utilizados en la actualidad.</p>
+
+<p>RSA, al ser un cifrador asim&eacute;trico, trabaja con dos claves, una p&uacute;blica y una privada. Todo el contenido de texto plano, o contenido sin cifrar, que sea hecho con la clave p&uacute;blica, podr&aacute; ser descifrado mediante la clave privada, y viceversa, todo contenido cifrado con la clave privada podr&aacute; ser descifrado mediante la clave p&uacute;blica.</p>
+
+<img src="http://i65.tinypic.com/24wzs79.jpg">
+</section>
+
+<section class="slide" id="aplicacion3">
+      <h2>&iquest;C&oacute;mo funciona?</h2>
+      <p>Los pasos siempre son:</p>
+
+<ol><li>Generar dos n&uacute;meros primos muy grandes, p y q</li>
+<li>Hacer n=p*q</li>
+<li>Calcular z=(p-1)*(q-1)</li>
+<li>Elegir un peque&ntildeo n&uacute;mero k, co-primo de z, de modo que el M&aacute;ximo Com&uacute;n Divisor entre z y k sea 1, con 1 < k < z </li>
+<li>Encontrar un n&uacute;mero j tal que el (j mod z) sea 1</li>
+<li>Publicar k y n como la clave p&uacute;blica.</li>
+<li>Guardar j como la clave privada.</li></ol>
+
+<p>Luego, para el cifrado se usan estas expresiones, basadas en los anteriores valores:</p>
+<pre>
+mensaje_cifrado = (mensaje_plano)^k mod n
+mensaje_plano = (mensaje_cifrado)^j mod n
+</pre>
+<p>Cabe aclarar, como mencion&aacute;bamos arriba, que RSA es un algoritmo muy seguro en nuestros tiempos, pero no es un algoritmo de cifrado que pueda resistir un ataque cu&aacute;ntico.</p>
+</section>

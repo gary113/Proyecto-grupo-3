@@ -1,0 +1,9 @@
+Sus datos son los siguientes:
+
+Nombre de la tienda: Jarritas.SAC
+Numero de telefono: 911834125
+Usuario: jarras
+Correo electronico de contacto: mecamica.jarras@gmail.com
+Direccion de la tienda: FIM
+Coordenadas XY (separadas por espacio): 3 5
+Contrasenia: 12317

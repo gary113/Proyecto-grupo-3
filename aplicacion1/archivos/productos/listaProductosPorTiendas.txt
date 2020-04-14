@@ -1,0 +1,18 @@
+categoria|tienda|nombre|precio
+Higiene personal|dlucia|Papel higienico|2
+Limpieza del hogar|dlucia|Escoba|3
+Viveres|dlucia|Aceite|7
+Viveres|dlucia|Arroz|3
+Viveres|dlucia|Paneton|30
+Higiene personal|dlucia|Shampoo|4
+Higiene personal|dlucia|Jabon|2
+Limpieza del hogar|dlucia|Detergente|2
+Limpieza del hogar|dlucia|Recogedor|2
+Viveres|tdpepe|Aceite|6.5
+Viveres|mechita|Aceite|7.5
+Viveres|jarras|Paneton|5
+Limpieza del hogar|jarras|Detergente|3.5
+Limpieza del hogar|jarras|Escoba|10
+Limpieza del hogar|jarras|Recogedor|5.5
+Viveres|jarras|Arroz|3.5
+Higiene personal|tdpepe|Jabon|2.8

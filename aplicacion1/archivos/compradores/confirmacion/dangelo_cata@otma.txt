@@ -1,0 +1,10 @@
+Sus datos son los siguientes:
+
+Nombre: Dangelo
+Numero de telefono: 933156789
+Correo electronico: dangelo_cata@otma
+Direccion: jr los incas
+Coordenadas XY (separadas por espacio): 23 15
+Pregunta secreta: Que tipo de mascotas me gustan?
+Respuesta secreta: perros
+Contrasenia: 45968399

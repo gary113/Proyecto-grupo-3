@@ -1,0 +1,9 @@
+Sus datos son los siguientes:
+
+Nombre del repartidor: Dangelo Catacora Mamani
+Numero de telefono: 933156789
+DNI: 74815099
+Usuario: dan
+Contrasenia: 3224081957
+Puntacion: 0
+Numero de puntuaciones: 0

@@ -1,0 +1,4 @@
+categorias|productos...
+Viveres|Aceite|Arroz|Paneton
+Higiene personal|Shampoo|Jabon|Papel higienico
+Limpieza del hogar|Escoba|Recogedor|Detergente

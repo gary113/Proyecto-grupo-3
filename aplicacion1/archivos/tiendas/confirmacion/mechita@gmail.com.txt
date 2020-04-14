@@ -1,0 +1,9 @@
+Sus datos son los siguientes:
+
+Nombre de la tienda: La mechita
+Numero de telefono: 696969696
+Usuario: mechita
+Correo electronico de contacto: mechita@gmail.com
+Direccion de la tienda: FIIS UNI
+Coordenadas XY (separadas por espacio): 30 20
+Contrasenia: 471953
