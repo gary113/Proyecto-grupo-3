@@ -1,5 +1,3 @@
-Integrantes:
--Candia Nina Gary Alberto
--Berroa Escriba Henry Jesus
--Estrella Salomé Jean Manuel 
--Catacora Mamani D'angelo Johnny
+# Proyecto grupo 3
+
+Proyecto realizado para el curso de Lenguaje de programación estructurada
